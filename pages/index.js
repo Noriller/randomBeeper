@@ -52,7 +52,7 @@ export default function Home() {
 
   function playBeep() {
     if (mode === 1) {
-      play3();
+      playTimes(1);
       return;
     }
 
@@ -69,7 +69,7 @@ export default function Home() {
         return;
       }
 
-    play3();
+    playTimes(1);
   }
 
   function handleChange1(e) {
