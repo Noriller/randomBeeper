@@ -152,6 +152,19 @@ export default function Home() {
           <label >Triple</label>
         </div>
 
+        <div>
+          <pre>
+            {`
+            Basically a metronome that you can set a randomish interval.
+            You also have three modes:
+              normal = Play 1
+              double = Play 2
+              triple = Play 3
+            That based on chance will play extra times.
+            `}
+          </pre>
+        </div>
+
       </Div>
 
     </>
